@@ -1,0 +1,2 @@
+# HaokaiMO's blog
+Welcome!
