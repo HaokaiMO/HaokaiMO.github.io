@@ -6,7 +6,7 @@ tags:
   - 'Jekyll'
 ---
 
-这篇文章记录了最近几个星期以来，我从对 GitHub Pages 完全陌生，到知道了如何使用 GitHub Pages + Jekyll 来搭建个人博客的这个过程中，通过一些搜索所查看的相关参考资料。文章中不会对搭建个人博客的步骤进行详细说明，主要是从时间顺序上列出我在这一探索过程中所查看的资料，因为假如你大致看了这些参考资料后，如果你有搭建个人博客的想法，那么我想你应该知道下一步如何具体去做。
+这篇文章记录了最近几个星期以来，我从对 GitHub Pages 完全陌生，到知道了如何使用 GitHub Pages + Jekyll 来搭建个人博客的这个过程中，通过一些搜索所查看的相关参考资料。文章中不会对搭建个人博客的步骤进行详细说明，主要是从时间顺序上列出我在这一探索过程中所查看的资料，因为假如你在大致看了这些参考资料后，如果有搭建个人博客的想法，那么我想你应该知道下一步如何具体去做。
 
 <!-- more -->
 
@@ -22,7 +22,7 @@ tags:
 
 接着我进一步在  [Jekyll DOCS](https://jekyllrb.com/docs/) 中了解了 Gemfile、Bundler、Liquid、Front Matter、Layouts、Includes、Data Files、Assets、Blogging、Deployment，然后也把  [Jekyll Tutorials -- Video Walkthroughs](https://jekyllrb.com/tutorials/video-walkthroughs/) 这一系列讲解的视频看了，并在 GitHub Help 上把 [Setting up a GitHub Pages site with Jekyll](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll) 这个页面中所链接的相关文章大致浏览了下。
 
-在完成这些内容后，我开始对之前找到的 [ishanshan](https://github.com/ishanshan/ishanshan.github.io) 和 [Simpleyyt](https://github.com/Simpleyyt/simpleyyt.github.io) 这两个使用 [jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next) 模板的博客仓库内容进行对比和分析，然后通过修改 _config.yml、404.html、Gemfile文件以及 _sass、 _includes 、assets 等文件夹中的内容进行个性化的设置，比如调整页面字体大小、页面显示 Markdown 文章大纲 toc 高亮的颜色等。最后在 _posts 文件夹中按相应的规则放入你的文章—— .md 文件后，在命令行窗口 cmd 中进入你本地存放博客页面的文件夹下，执行 `bundle exec jekyll serve` 进行页面启动，正常运行后根据 cmd 窗口中提示的信息，在  http://127.0.0.1:4000 地址中可以预览你的博客页面以及你放在 _posts 文件夹中的文章。
+在完成这些内容后，我开始对之前找到的 [ishanshan](https://github.com/ishanshan/ishanshan.github.io) 和 [Simpleyyt](https://github.com/Simpleyyt/simpleyyt.github.io) 这两个使用 [jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next) 模板的博客仓库内容进行对比和分析，然后通过修改 _config.yml、404.html、Gemfile文件以及 _sass、 _includes 、assets 等文件夹中的内容进行个性化的设置，比如调整页面字体大小、页面显示 Markdown 文章大纲 toc 高亮的颜色等。最后在 _posts 文件夹中按相应的规则放入博客文章—— .md 文件后，在命令行窗口 cmd 中进入本地存放博客页面的文件夹下，执行 `bundle exec jekyll serve` 进行页面启动，正常运行后根据 cmd 窗口中提示的信息，在  http://127.0.0.1:4000 地址中就可以预览所生成的博客页面以及放置在 _posts 文件夹中 Markdown 文章。
 
 在本地预览所生成的页面后，如果确认没有问题，那么便可以把本地存放博客的文件夹中除了 _site 文件夹（ _site 文件夹的内容是 Jekyll 根据你存放博客的文件夹中其它文件自动生成的）都推送到你的 GitHub 账户中存放个人博客的仓库中，推送成功后等几十秒样子就可以在类似 https://username.github.io 地址中访问你的博客页面，此外 GitHub Pages 也支持你修改个人博客的域名。
 
@@ -40,7 +40,7 @@ tags:
 
 1. [程序员不可不知的版权协议](https://www.gcssloop.com/tips/choose-license?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) 
 2. [Choose an open source license](https://choosealicense.com/) 
-3. GitHup Help 上的 [Licensing a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) 
+3. GitHub Help 上的 [Licensing a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) 
 
 在我的博客页面生成后，我通过在 [百度统计](https://tongji.baidu.com/web/welcome/login) 上注册了站长版的账号，然后把我的博客网站添加了上去，在添加成功后会自动生成一小段代码，从生成的这段代码中复制 https://hm.baidu.com/hm.js? 后面那一串数字，然后再把 _config.yml 文件中 baidu_analytics 的值设置为这串数字（可以参考 [第三方服务集成-NexT使用文档](http://theme-next.simpleyyt.com/third-party-services.html)、[给Hexo主题博客加入百度站点统计](https://blog.csdn.net/Sophie_U/article/details/84326459) ）。在本地文件修改后若没什么问题，再把修改后的文件推送到 GitHub 相应的远程仓库就可以了。
 
