@@ -214,7 +214,7 @@ tags:
 
 程序通常由几个单独的部分组成，它们经常由不同的人来开发。例如，“Hello, World!” 程序包含我们编写的部分和 C++ 标准类库。这些单独的部分（有时称为翻译单元）必须被编译，其目标代码必须被链接起来以形成一个可执行程序。用于将这些部分链接起来的程序通常称为链接器。
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/ProgrammingPrinciplesofBjarneStroustrup/linker.JPG" width="536" height="370" alt="linker" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/ProgrammingPrinciplesofBjarneStroustrup/linker.JPG" width="536" height="370" alt="linker" />
 
 请注意目标代码和可执行程序是不能在系统之间移植的。例如，当你为一台 Windows 机器进行编译时，你得到的支持 Windows 的目标代码无法在 Linux 机器上运行。
 
@@ -254,7 +254,7 @@ IDE 通常包括一个具有有用特性的编辑器，例如用不同颜色的�
 
 目前还在使用的程序设计语言有哪些，用于什么领域？这确实是一个难以回答的问题。当前语言的家族树——即便是以最简化的形式呈现，也很拥挤、杂乱，如下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/ProgrammingPrinciplesofBjarneStroustrup/languageFamilyTree.JPG" width="622" height="352" alt="languageFamilyTree"  />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/ProgrammingPrinciplesofBjarneStroustrup/languageFamilyTree.JPG" width="622" height="352" alt="languageFamilyTree"  />
 
 &nbsp;
 
