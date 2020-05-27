@@ -92,7 +92,7 @@ git commit -m “add 3 files”
 
 在本地仓库中由 Git 维护的三颗「树」组成，第一个是**工作目录**；第二个是**暂存区**；第三个是**HEAD**，它指向你最后一次提交的结果，它们的关系如下图所示（图片来自 [git 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html) 页面中的内容）：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/git-workingFlow-three-tree.JPG" width="584" height="375" alt="git-workingFlow-three-tree" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/git-workingFlow-three-tree.JPG" width="584" height="375" alt="git-workingFlow-three-tree" />
 
 ### 2 时光穿梭
 
@@ -234,23 +234,23 @@ git commit -m “remove test.txt”
 
 在 3.1 节版本回退里我们已经看到每次提交，Git 都把它们串成一条时间线，这条时间线就是一个分支，截止到目前只有一条时间线，在 Git 里这个分支叫主分支，即 master 分支。HEAD 严格来说不是指向提交，而是指向 master，master 才是指向提交，**所以 HEAD 指向的就是当前分支**。一开始的时候 master 分支是一条线，Git 用 master 指向最新的提交，再用 HEAD 指向 master 就能确定当前分支以及当前分支的提交点，如下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/create-and-combine-branches-00.JPG" width="236" height="131" alt="create-and-combine-branches-00" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/create-and-combine-branches-00.JPG" width="236" height="131" alt="create-and-combine-branches-00" />
 
 每次提交，master 分支都会向前移动一步，随着不断提交，master 分支的线也越来越长。当我们创建新的分支，如 dev 时，Git 新建了一个指针叫 dev，指向 master 相同的提交，再把 HEAD 指向 dev 就表示当前的分支在 dev 上，如下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/create-and-combine-branches-01.JPG" width="275" height="178" alt="create-and-combine-branches-01" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/create-and-combine-branches-01.JPG" width="275" height="178" alt="create-and-combine-branches-01" />
 
 所以 Git 创建一个分支很快，因为除了增加一个 dev 分支，改改 HEAD 的指向，工作区的文件都没有任何变化。不过从现在开始，对工作区的修改和提交就是针对 dev 分支了，比如新提交一次后，dev 指针往前移动一步，而 master 指针不变，如下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/create-and-combine-branches-02.JPG" width="356" height="160" alt="create-and-combine-branches-02" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/create-and-combine-branches-02.JPG" width="356" height="160" alt="create-and-combine-branches-02" />
 
 假如我们在 dev 上的工作完成了，就可以把 dev 合并到 master 上，Git 怎么合并呢？最简单的方法就是直接把 master 指向 dev 的当前提交就完成了合并，如图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/create-and-combine-branches-03.JPG" width="277" height="157" alt="create-and-combine-branches-03" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/create-and-combine-branches-03.JPG" width="277" height="157" alt="create-and-combine-branches-03" />
 
 合并完分支后可以删除 dev 分支，删除 dev 分支就是把 dev 指针给删掉，删掉后我们就只剩一条 master 分支，如下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/create-and-combine-branches-04.JPG" width="305" height="129" alt="create-and-combine-branches-04" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/create-and-combine-branches-04.JPG" width="305" height="129" alt="create-and-combine-branches-04" />
 
 根据上述说明我们输入指令进行相应的练习，首先创建 dev 分支，然后切换到 dev 分支：
 
@@ -280,7 +280,7 @@ git commit -m “branch test”
 
 切换回 master 分支后再查看下 readme.txt 文件，可以看到刚才添加的内容不见了，因为那个修改的提交是在 dev 分支上，而 master 分支此刻的提交点并没有变，如下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/create-and-combine-branches-05.JPG" width="315" height="176" alt="create-and-combine-branches-05" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/create-and-combine-branches-05.JPG" width="315" height="176" alt="create-and-combine-branches-05" />
 
 现在把 dev 分支的工作成果合并到 master 分支上：
 
@@ -317,7 +317,7 @@ git commit -m “& simple”
 
 此时在 Git 中提交的顺序图如下所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/resolve-conflicts-00.JPG" width="313" height="209" alt="resolve-conflicts-00" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/resolve-conflicts-00.JPG" width="313" height="209" alt="resolve-conflicts-00" />
 
 这种情况下如果把 feature1 分支合并到 master 上就无法执行快速合并，只能试图把各自的修改合并起来，但这种合并就可能会有冲突。输入：
 
@@ -336,7 +336,7 @@ git commit -m “conflict fixed”
 
 执行后 master 分支和 feature1 分支变成下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/resolve-conflicts-01.JPG" width="401" height="202" alt="resolve-conflicts-01" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/resolve-conflicts-01.JPG" width="401" height="202" alt="resolve-conflicts-01" />
 
 接着用 `git log --graph` 命令，执行后可以看到分支合并的情况：
 
@@ -374,11 +374,11 @@ git merge --no-ff -m “merge with no-ff” dev
 
 可以看到不使用 Fast forward 模式 merge 后就像这样：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/resolve-conflicts-02.JPG" width="347" height="192" alt="resolve-conflicts-02" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/resolve-conflicts-02.JPG" width="347" height="192" alt="resolve-conflicts-02" />
 
 **分支策略**：在实际开发中，我们应该按照几个基本原则进行分支管理。**首先 master 分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活**，那都在哪干活呢？干活都在 dev 分支上，也就是说 dev 分支是不稳定的，到某个时候，比如 1.0 版本发布时，再把 dev 分支合并到 master 上，在 master 分支发布 1.0 版本。你和你的小伙伴们每个人都在 dev 分支上干活，每个人都有自己的分支，时不时地往 dev 分支上合并就可以了，所以团队合作的分支看起来就像这样：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/resolve-conflicts-03.JPG" width="536" height="148" alt="resolve-conflicts-03" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/resolve-conflicts-03.JPG" width="536" height="148" alt="resolve-conflicts-03" />
 
 #### 4.4 Bug分支
 
@@ -522,7 +522,7 @@ git push origin dev
 
 执行后 Git Bash 中显示的信息类似下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/rebase-00.JPG" width="401" height="240" alt="rebase-00" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/rebase-00.JPG" width="401" height="240" alt="rebase-00" />
 
 在输出信息中能看到 Git 分别用（HEAD -> master）和（origin/master）标识出当前分支的 HEAD 和远程 origin 所处的提交位置，在提交信息为 「init hello」 的远程同步后，本地进行了提交信息分别为「add comment」和「add author」的两次提交。接着尝试推送本地分支至远程：
 
@@ -538,7 +538,7 @@ git push origin dev
 
 执行后 Git Bash 中显示的信息类似下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/rebase-01.JPG" width="657" height="221" alt="rebase-01" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/rebase-01.JPG" width="657" height="221" alt="rebase-01" />
 
 这时我们发现在本地上次和远程同步的「init hello」提交后，本地的「add comment」、「add author」、远程的「set exit=1」和本地的「Merge branch 'master' of github.com:michaelliao/learngit」这些提交记录分叉了。当然现在也可以直接把本地的分支推送到远程，但之后用 `git log` 查看提交记录时不是那么好看，此时我们可以用 rebase 命令调整下，输入：
 
@@ -550,7 +550,7 @@ git push origin dev
 
 此时 Git Bash 中显示的日志信息类似下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/rebase-02.JPG" width="402" height="157" alt="rebase-02" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/rebase-02.JPG" width="402" height="157" alt="rebase-02" />
 
 可以看到原本分叉的提交日志记录现在变成了一条直线，我们可以发现 Git 把我们本地的「add comment」、「add author」两次提交「挪动」了位置，放到了提交信息为「set exit=1」的提交后面，rebase 操作后最终的提交内容是一致的，但我们本地的 commit 修改内容已经变化了，它的修改不再基于提交信息为「init hello」的那次提交，而是基于提交信息为「set exit=1」的提交，不过最后的「add author」提交的内容是一致的，因为它仍是在「add comment」提交之后。
 
@@ -565,7 +565,7 @@ git log --graph --pretty=oneline --abbrev-commit
 
 命令执行后 Git Bash 中显示的信息类似下图所示：
 
-<img src="https://raw.githubusercontent.com/HaokaiMO/hello-world/master/LearningNotesofGit/rebase-03.JPG" width="417" height="152" alt="rebase-02" />
+<img src="https://gitee.com/haokaimo/Picture/raw/master/LearningNotesofGit/rebase-03.JPG" width="417" height="152" alt="rebase-02" />
 
 可以看到远程分支的提交历史也是一条直线。rebase 操作可以把本地未 push 的分叉提交历史整理成直线，它的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比。
 
