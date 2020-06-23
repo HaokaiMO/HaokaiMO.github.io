@@ -2,7 +2,7 @@
 title: '学习编程的正确姿势-牛岱'
 category: Opinion
 tags:
-  - 'Learning methods'
+  - 'Learning Methods'
 ---
 
 本文是我在 2019 年 10 月底听取牛岱的 [学习编程的正确姿势](https://www.zhihu.com/lives/1137494035894730752) 知乎 Live 讲座时，一边听录音一边记一些笔记后期整理完成的。我从牛岱的知乎账号上有了解到貌似他目前还是中国科学技术大学大四的学生，但我认为他的这个讲座里面讲的一些观点还是比较有参考价值的，所以也将他提到的一些内容整理出来，感兴趣的朋友也可以去购买听下他的这个知乎 Live 讲座。
@@ -133,7 +133,7 @@ Linux
 ## 15. 开发工具
 
 - Visual Studio：C；C++；
-- Visual StudioCode：除了 C/C++ 外的几乎所有主流语言；
+- Visual Studio Code：除了 C/C++ 外的几乎所有主流语言；
 
 ## 16. 扩展视野
 

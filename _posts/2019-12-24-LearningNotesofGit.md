@@ -3,6 +3,7 @@ title: 'Git学习笔记'
 category: Tool
 tags: 
   - 'Git'
+  - 'Notes'
 ---
 
 这篇文章是我在学习 Git 过程中，通过查看和练习相关的学习资料时所做的一些个人总结，运行的系统环境是 Windows 10。文章主要可分为两个部分，一部分是对安装 git for Windows 进行一些简要说明，然后使用 Git Bash 进行初步设置，并与个人的 GitHub 账号关联起来；另一部分是在学习 [廖雪峰的 Git 教程](https://www.liaoxuefeng.com/wiki/896043488029600) 时所记录的要点内容。

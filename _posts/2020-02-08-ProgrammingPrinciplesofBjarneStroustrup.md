@@ -2,7 +2,7 @@
 title: 'Bjarne Stroustrup一书中关于程序设计的一些观点 '
 category: Opinion
 tags:
-  - 'Programming principles'
+  - 'Programming Principles'
 ---
 
 本文中的文字摘录于 Bjarne Stroustrup 编写的 [《C++程序设计原理与实践》](https://book.douban.com/subject/4875599/)（中文出版时间 2010 年，英文原版 2009 年）中关于程序设计的一些观点见解。最开始我是在 2017 年 2 月底从学校的图书馆中找到了这本书，当时正在准备 CCF CSP 的程序设计考试，以达到学院对我们毕业的基本要求，在翻阅这本书时主要是看下大概，了解一些观点，因为当时我自己主要学的编程语言是 Java，而在查看这本书的过程中，我把一些令我印象较深的地方用手机拍了下来，这两天把当时拍得十几张照片中的内容汇整了一下，形成了这篇文章。
