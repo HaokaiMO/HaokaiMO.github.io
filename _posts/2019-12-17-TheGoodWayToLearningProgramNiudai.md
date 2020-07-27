@@ -36,7 +36,7 @@ Stack Overflow
 
 ## 3. 浏览器推荐
 
-PC端：Chrome、Edge。
+PC 端：Chrome、Edge。
 
 移动端：Quark (夸克) 、Chrome。
 
@@ -81,8 +81,8 @@ Linux
 
 ## 8. 关于Git
 
-- Git工具：Branch；Commit；Remote/Local；
-- Git学习资源：[Become a git guru](https://www.atlassian.com/git/tutorials) (Learn Git with Bitbucket Cloud)；
+- Git 工具：Branch；Commit；Remote/Local；
+- Git 学习资源：[Become a git guru](https://www.atlassian.com/git/tutorials) (Learn Git with Bitbucket Cloud)；
 
 ## 9. 技术博客搭建
 
@@ -98,7 +98,7 @@ Linux
 
 ## 11. 设计模式
 
-设计模式并不是针对任何一种语言，而是一种用编程语言描述现实世界问题广泛采取的各种模式。比如观察者模式、工厂模式、依赖注入模式等。（这个Live 讲座对应的 [GitHub 仓库](https://github.com/niudai/How-to-be-a-good-programmer) 里推荐了 2 个 YouTube 上的视频）
+设计模式并不是针对任何一种语言，而是一种用编程语言描述现实世界问题广泛采取的各种模式。比如观察者模式、工厂模式、依赖注入模式等。（这个 Live 讲座对应的 [GitHub 仓库](https://github.com/niudai/How-to-be-a-good-programmer) 里推荐了 2 个 YouTube 上的视频）
 
 ## 12. 一些小习惯
 
