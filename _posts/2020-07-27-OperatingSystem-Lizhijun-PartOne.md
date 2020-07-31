@@ -181,7 +181,7 @@ IP (Instruction pointer)；PC (program counter)
 
 把 setup 读进来，再把操作系统的其它部分代码读进来。
 
-更改开机启动时，屏幕上输出的字符，例如 "LiOS is loading" ，这就是我们实验 1 的一个部分。还是前面那句话，不 coding 操作系统，不会学会操作系统。
+更改开机启动时，屏幕上输出的字符，例如 "LiOS is loading"，这就是我们实验 1 的一个部分。还是前面那句话，不 coding 操作系统，不会学会操作系统。
 
 <img src="https://gitee.com/haokaimo/Picture/raw/master/OS-Lizhijun/L2-ok_load_setup.JPG" alt="L2-ok_load_setup" style="zoom:60%;" />
 
@@ -592,7 +592,7 @@ Linus 在做出 Linux 后，他以开源的形式把 Linux 发在互联网上，
 
 Paul Allen 和 Bill Gates 在杂志上看到了 ALTAIR 8800 这台机器的报道，很感兴趣，想着能不能为这个机器做点什么，于是两个人就开发了 BASIC 解释器。这个非常好，你在上面开发了 BASIC 解释器，那别人就可以用你的 BASIC 解释器来编 BASIC 程序，那么别人就可以用这个机器了，据此开创了微软。
 
-MS-DOS（比尔 · 盖茨的第一个系统） 和 IBM PC 一起打包卖的时候，当时就非常火。老师在那个年代，九几年到二千年的时候，老师 1995 年读的本科，在 2000 左右的时候，用的机器上面装的都是 DOS ，当时非常火。
+MS-DOS（比尔 · 盖茨的第一个系统） 和 IBM PC 一起打包卖的时候，当时就非常火。老师在那个年代，九几年到二千年的时候，老师 1995 年读的本科，在 2000 左右的时候，用的机器上面装的都是 DOS，当时非常火。
 
 <img src="https://gitee.com/haokaimo/Picture/raw/master/OS-Lizhijun/L6-MS-DOS.JPG" alt="L6-MS-DOS" style="zoom:60%;" />
 
