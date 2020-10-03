@@ -1,13 +1,13 @@
 ---
-title: 'vi-vim，man page，Shell Scripts 判断式的基本使用'
+title: 'vi/vim，man page，Shell Scripts 判断式的基本使用'
 category: Linux
 tags: 
-  - 'vi-vim'
+  - 'vi/vim'
   - 'man page'
   - 'Shell Scripts 判断式'
 ---
 
-这篇文章汇整了鸟哥的 Linux 私房菜中对 vi-vim、man page 以及 Shell Scripts 判断式的基本使用方式，其中主要是鸟哥整理的表格，我以图片的形式汇整到一起以方便今后查阅。
+这篇文章汇整了鸟哥的 Linux 私房菜中对 vi/vim、man page 以及 Shell Scripts 判断式的基本使用方式，其中主要是鸟哥整理的表格，我以图片的形式汇整到一起以方便今后查阅。
 
 <!-- more -->
 
